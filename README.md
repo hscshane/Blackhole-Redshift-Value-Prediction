@@ -14,7 +14,11 @@ Data preprocessing: AGN_Redshift_Predictor_Preprocessing_v1.1.0.ipynb <br>
 Model training: AGN_Redshift_Predictor_Modeling_v1.1.0.ipynb <br>
 Performance Evaluation: AGN_Redshift_Predictor_Evaluation_v1.1.0.ipynb <br>
 
-## Results:
+## Models:
 Z_NN.pd: Neural Network Model for blackhole redshift prediction. <br>
+LR_Model.pkl: Linear Regression model
+KNN_Model.pkl: K-nearest neighbors model
+
+## Results
 ./results/z_dist.pdf: Actual vs Fitted Values for Redshift Distributions. <br>
 ./results/scores.csv: metric score results <br>
